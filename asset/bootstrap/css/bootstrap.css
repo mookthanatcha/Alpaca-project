@@ -6754,4 +6754,33 @@ button.close {
     display: none !important;
   }
 }
+body {
+  background-color: black;
+  background: url(asset/img/p1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.button {
+    background-color:purple;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.choose{
+  text-align: center;
+  color: white;
+  font-size:  30px;
+}
+
+
+
 /*# sourceMappingURL=bootstrap.css.map */
