@@ -6755,12 +6755,7 @@ button.close {
   }
 }
 body {
-  background-color: black;
-  background: url(asset/img/p1.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-image: "asset/img/home.jpg";
 }
 
 .button {
@@ -6780,6 +6775,47 @@ body {
   color: white;
   font-size:  30px;
 }
+ul {
+  list-style-type: none;
+  margin: 50;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  
+}
+
+li {
+  float: left;
+  font-family: League Spartan Bold;
+  font-size: 48px;
+  background-color: #353535;
+  
+}
+
+li a {
+  display: block;
+  color: #D3ED2F;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #333;
+  font-size: 33px;
+  font-family: Quark;
+  color: #FFFFFF;
+}
+body {
+  background-image: url("asset/img/home.jpg");
+  background-repeat: repeat-x;
+}
+
+
 
 
 
