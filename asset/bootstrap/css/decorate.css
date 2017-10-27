@@ -1,35 +1,14 @@
-/* body {
-  background-image: url("asset/img/home.jpg");
-  background-repeat: repeat-x;
-}
-body {
-    background-image: "asset/img/home.jpg";
-} */
-
 body{
-    background-color: brown  ;
+      background-image: url("asset/img/home.jpg");
     
 }
-  /* .button {
-      background-color:purple;
-      border: none;
-      color: white;
-      padding: 15px 32px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      margin: 4px 2px;
-      cursor: pointer;
-  }
-  .choose{
-    text-align: center;
-    color: white;
-    font-size:  30px;
-  } */
+.navmenu{
+  margin: auto;
+}
+  
   ul {
     list-style-type: none;
-    margin: 50;
+    margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
@@ -41,19 +20,20 @@ body{
     font-family: League Spartan Bold;
     font-size: 48px;
     background-color: #353535;
-    
+    opacity : 50;
   }
   
   li a {
     display: block;
     color: #D3ED2F;
     text-align: center;
-    padding: 14px 16px;
+    padding:14px 16px;
     text-decoration: none;
   }
   
-  li a:hover:not(.active) {
-    background-color: #111;
+  li a:hover:after {
+    background-color:lightgray;
+    transition: 300ms;
   }
   
   .active {
@@ -62,5 +42,36 @@ body{
     font-family: Quark;
     color: #FFFFFF;
   }
+  .first{
+    color: white;
+    padding-top: 600px; 
+    padding-left: 200px;
+    
+    
+  }
+  .first h2{
+    font-size: 80px;
+    font-family : Microsoft PhagsPa;
+  }
+  .row{
+    color:black;
+    font-family: Tw Cen MT Condensed Extra Bold;
+    font-size: 50px;
+    margin: 400px;
+    text-align: center;
+
+  }
+ .button{
+   text-align: center;
+   padding: 14px 40px;;
+   display: inline-block;
+   background-color: green;
+   margin-left: 600px;
+   margin-top: 100px;
+   border-radius: 30px;
+   color: white;
+   font-size: 30px;
+ }
+ 
   
   
