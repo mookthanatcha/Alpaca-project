@@ -1,0 +1,286 @@
+#body {
+    background-color: black;
+}
+
+.navbar {
+    margin: 0;
+    position: fixed;
+    z-index: 9;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+}
+
+li {
+    float: left;
+    font-family: League Spartan Bold;
+    font-size: 48px;
+    background-color: #353535;
+    opacity: 50;
+}
+
+li a {
+    display: block;
+    color: #D3ED2F;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+.hwomen {
+ 
+    background-image: url("./imgp2/g0.jpg");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    height: calc(100vh);
+    background-position: 50% 50%;
+
+    
+ 
+
+}
+.hwomen p{
+    font-size: 90px;
+    margin: 0;
+    padding-top: 300px;
+    color:#FFFFFF;
+    text-align: center;
+  
+}
+.bod1{
+    margin:0;
+    border: 90px lightgray;
+    padding: 90px;
+    background-color:lightgrey;
+    position: relative;
+    
+}
+.ic1{
+    height: 140px;
+     width: 140px;
+     margin-left: 120px;
+    
+}
+.ic2{
+    height: 140px;
+     width: 140px;
+     margin-left: 120px;
+   
+}
+.ic3{
+
+     height: 140px;
+     width: 140px;
+     margin-left: 120px;
+    
+}
+.ic4{
+    float: left;
+    height: 140px;
+    width: 140px;
+    margin-left: 120px;
+  
+
+}
+.abs {
+    margin: 0;
+    background-image: url("./imgp2/g3.jpg");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    height: calc(100vh);
+    background-position: 50% 50%;
+    filter: alpha(opacity=50);
+    opacity: 0.6;
+}
+
+
+.abs1{
+     margin-left: 1000px;
+     margin-top:40px; 
+    width: 230px;
+    height: 70px; 
+}.abs2{
+    margin-left: 1000px;
+    margin-top: 40px;
+    width: 230px;
+    height: 70px; 
+}.abs3{
+    margin-left: 1000px;
+    margin-top: 40px;
+    width: 150px;
+    height: 70px; 
+}.abs4{
+    margin-left: 1000px;
+    margin-top: 40px;
+    width: 200px;
+    height: 70px; 
+}.abs5{
+    margin-left: 1000px;
+    margin-top: 40px;
+    width: 200px;
+    height: 70px; 
+}
+
+
+
+.arm {
+    margin: 0;
+    background-image: url("./imgp2/g1.jpg");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    height: calc(100vh);
+    background-position: 50% 50%;
+    opacity: 0.6;
+    filter: alpha(opacity=50);
+}
+.arm1{
+    margin-left: 1000px;
+    margin-top:40px; 
+    width: 230px;
+    height: 70px; 
+}
+.arm2{
+   margin-left: 1000px;
+   margin-top: 40px;
+   width: 230px;
+   height: 70px; 
+}
+.arm3{
+   margin-left: 1000px;
+   margin-top: 40px;
+   width: 200px;
+   height: 70px; 
+}
+.arm4{
+   margin-left: 1000px;
+   margin-top: 40px;
+   width: 200px;
+   height: 70px; 
+}
+.arm5{
+   margin-left: 1000px;
+   margin-top: 40px;
+   width: 200px;
+   height: 70px; 
+}
+
+
+.leg {
+    margin: 0;
+    background-image: url("./imgp2/g4.jpg");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    height: calc(100vh);
+    background-position: 50% 50%;
+    opacity: 0.6;
+    filter: alpha(opacity=50);
+}
+.leg1{
+    margin-left: 1000px;
+    margin-top:40px; 
+    width: 230px;
+    height: 70px; 
+}
+.leg2{
+   margin-left: 1000px;
+   margin-top: 40px;
+   width: 230px;
+   height: 70px; 
+}
+.leg3{
+   margin-left: 1000px;
+   margin-top: 40px;
+   width: 150px;
+   height: 70px; 
+}
+.leg4{
+   margin-left: 1000px;
+   margin-top: 40px;
+   width: 200px;
+   height: 70px; 
+}
+.leg5{
+   margin-left: 1000px;
+   margin-top: 40px;
+   width: 200px;
+   height: 70px; 
+}
+
+.butt {
+    
+     background-image: url("./imgp2/g2.jpg");
+     background-attachment: scroll;
+     background-repeat: no-repeat;
+     height: calc(100vh);
+     background-position: 50% 50%;
+     opacity: 0.6;
+     filter: alpha(opacity=50);
+ }
+ .butt1{
+    margin-left: 1000px;
+    margin-top:40px; 
+    width: 300px;
+    height: 70px; 
+}
+.butt2{
+   margin-left: 1000px;
+   margin-top: 40px;
+   width: 260px;
+   height: 70px; 
+}
+.butt3{
+   margin-left: 1000px;
+   margin-top: 40px;
+   width: 150px;
+   height: 70px; 
+}
+.butt4{
+   margin-left: 1000px;
+   margin-top: 40px;
+   width: 200px;
+   height: 70px; 
+}
+.butt5{
+   margin-left: 1000px;
+   margin-top: 40px;
+   width: 200px;
+   height: 70px; 
+}
+.footer {
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align: left;
+}
+
+.logo {
+    width: 200px;
+
+}
+
+#last h2 {
+    font-family: Orator Std;
+    font-size: 24;
+    padding-left: 550px;
+    color: white;
+    text-align: center;
+}
+
+#last h3 {
+    padding-left: 500px;
+    font-family: Orator Std;
+    font-size: 24;
+    color: white;
+    text-align: center;
+}
+
