@@ -1,0 +1,183 @@
+.navmenu{
+  /* margin: auto; */
+  position: fixed;
+  width: 100%;
+  z-index: 9;
+  transition: 70%;
+  
+  
+}
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+  }
+  
+  li {
+    float: left;
+    font-family: League Spartan Bold;
+    font-size: 48px;
+    background-color: #353535;
+    opacity : 50;
+  }
+  
+  li a {
+    display: block;
+    color: #D3ED2F;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:after {
+    background-color:lightgray;
+    transition: 300ms;
+  }
+  
+  .active {
+    background-color: #333;
+    font-size: 33px;
+    font-family: Quark;
+    color: #FFFFFF;
+  }
+  .first{
+    color: white;
+  }
+
+  .first .button {
+    width: 300px
+  }
+
+  .first h2{
+    font-size: 75px;
+    font-family : Microsoft PhagsPa;
+    margin-top: 261px;
+  }
+ 
+
+  
+ .button{
+   text-align: center;
+   padding: 14px 40px;;
+   display: inline-block;
+   background-color: green;
+   margin-top: 80px;
+   margin-bottom: 80px;
+   border-radius: 30px;
+   color: white;
+   font-size: 30px;
+
+ }
+
+ .part2 buttonfor{
+   /* background-color: lightgray; */
+   color: black;
+ }
+ .row{
+text-align: center;
+margin-bottom:0px;
+font-size: 70px;
+color: black;
+
+ }
+
+.buttonme{
+  
+  display: inline-block;
+  background-color: #d6f02f  ;
+  padding: 10px 10px;  
+  font-size: 50px;
+  color: black;
+  margin-bottom: 0px;
+  margin-top: 1px;
+  font-family: Impact;
+  box-shadow: #1e1c1c;
+  
+}
+.panel-body{
+  color: black;
+  font-family: Bangna New;
+  font-size: 40px;
+  
+  
+}
+.img-responsives{  
+    width: 800px;
+    height: auto;
+    display: flex;
+    margin-right: 0px;
+    margin-top: 0px;
+    float: left;        
+}
+
+#row3{  
+  margin-left: 100px; 
+}
+
+#row3 p {
+  font-size: 18pt;
+}
+
+.footer {
+  /* position: fixed; */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: gray;
+  color: white;
+  text-align: left;  
+}
+
+.logo{
+      width: 400px;
+}
+
+#last h2 {
+  font-family: Orator Std;
+  font-size: 24;  
+  padding-left: 500px;
+  color: white;
+}
+
+#last h3{
+  padding-left: 500px;
+  font-family: Orator Std;
+  font-size: 24; 
+  color: white;  
+}
+
+.image{
+  z-index: -100;
+  width: 100%;
+  height: 100%;
+}
+
+.mess{
+  color: white;
+  font-family: Tw Cen MT Condensed Extra Bold;
+  font-size: 120px;
+}
+
+.first {
+  background-image: url(../../img/home.jpg);
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  height: calc(100vh);
+  background-position: 50% 50%;
+}
+
+.part2 {
+  background-image: url(../../img/for.jpg);
+  background-repeat: no-repeat;
+  height: calc(100vh);
+  background-position: 50% 50%;
+}
+
+.part2 .row {
+  height: 100%;
+}
+
