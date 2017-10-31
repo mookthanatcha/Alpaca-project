@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="page2.css" />
+    <link rel="stylesheet" href="page2.js">
     <title>women</title>
 </head>
 
@@ -20,7 +21,7 @@
                     <img src="./imgp2/ihome.png" width="30" height="30" alt="error" />
                 </a>
             </li>
-       
+
 
         </ul>
     </div>
@@ -45,101 +46,436 @@
             </a>
         </div>
     </div>
-    <a name ="abs"><div class="abs"></a>
-        <div class="textbox">
-            <a>
-                <img class="abs1" src="./imgp2/abs/1.png" alt="bicycle crunches">
-            </a>
-            <a>
+    
+    <a name="abs">
+        <div class="abs">
+    </a>
+    <div class="textbox">
+
+
+        <a href="#absbi">
+            <label class="btn" for="modal-1">
+                <img class="abs1" src="./imgp2/abs/1.png" alt="bicycicycle crunches" />
+            </label>
+        </a>
+
+        <a href="#abscoss">
+            <label class="btn" for="modal-2">
                 <img class="abs2" src="./imgp2/abs/2.png" alt="cross arm and crunches">
-                <br>
-            </a>
-            <a>
-                <img class="abs3" src="./imgp2/abs/3.png" alt="plank">
-                <br>
-            </a>
-            <a>
-                <img class="abs4" src="./imgp2/abs/4.png" alt="mountain climbers">
-            </a>
-            <a>
-                <img class="abs5" src="./imgp2/abs/5.png" alt="Russian twist">
-            </a>
-        </div>
-    </div>
+            </label>
+        </a>
 
 
 
-    <a name="arm"><div class="arm" ></a>
-        <div class="textbox">
-            <a>
-                <img class="arm1" src="./imgp2/arm/1.png" alt="arm circles">
-            </a>
-            <a>
-                <img class="arm2" src="./imgp2/arm/2.png" alt="cobras">
-                <br>
-            </a>
-            <a>
-                <img class="arm3" src="./imgp2/arm/3.png" alt="diagonal plank">
-                <br>
-            </a>
-            <a>
-                <img class="arm4" src="./imgp2/arm/4.png" alt="push up">
-            </a>
-            <a>
-                <img class="arm5" src="./imgp2/arm/5.png" alt="triceps dips">
-            </a>
-        </div>
-    </div>
-
-
-  
-
-  <a name="leg">  <div class="leg"></a>
-            <div class="textbox">
-                    <a>
-                        <img class="leg1" src="./imgp2/leg/1.png" alt="pile squats">
-                    </a>
-                    <a>
-                        <img class="leg2" src="./imgp2/leg/2.png" alt="side lunges">
-                        <br>
-                    </a>
-                    <a>
-                        <img class="leg3" src="./imgp2/leg/3.png" alt="scissors">
-                        <br>
-                    </a>
-                    <a>
-                        <img class="leg4" src="./imgp2/leg/4.png" alt="sumo squats">
-                    </a>
-                    <a>
-                        <img class="leg5" src="./imgp2/leg/5.png" alt="single leg squat">
-                    </a>
-                </div>
-    </div>
-    <a name="butt">  <div class="butt"></a>
-        <div class="textbox">
-                <a>
-                    <img class="butt1" src="./imgp2/butt/1.png" alt="Fire Hydrants with Leg Extension">
-                </a>
-                <a>
-                    <img class="butt2" src="./imgp2/butt/2.png" alt="side lying leg">
-                    <br>
-                </a>
-                <a>
-                    <img class="butt3" src="./imgp2/butt/3.png" alt="pile squat">
-                    <br>
-                </a>
-                <a>
-                    <img class="butt4" src="./imgp2/butt/4.png" alt="squats">
-                </a>
-                <a>
-                    <img class="leg5" src="./imgp2/leg/5.png" alt="lunges">
-                </a>
+        <input class="modal-state" id="modal-1" type="checkbox" />
+        <div class="modal">
+            <label class="modal__bg" for="modal-1"></label>
+            <div class="modal__inner">
+                <label class="modal__close" for="modal-1"></label>
+                <h1>bicycicycle crunches</h1>
+                <img src="./imgp2/w.bicycle.jpg" />
+                <p>นอนหงายบนพื้นราบ ขาสองข้างเหยียดตรง จากนั้นใช้มือยกศีรษะเหนือจากพื้น จากนั้นทำการบริหารด้วยการสลับขางอเข้าและเหยียดตรงเหมือนกำลังปั่นจักรยานบนอากาศ
+                    ซึ่งขณะที่งอเข่าเข้าหาลำตัวให้บิดตัวให้ข้อศอกด้านตรงข้ามชนกันมากที่สุด โดยให้ทำติดต่อกัน 10 12 ครั้งต่อเซ็ต
+                    ทำสลับกันระหว่างด้านซ้ายและขวา ประมาณ 3 - 5 เซ็ต</p>
             </div>
-</div>
+        </div>
+
+        <input class="modal-state" id="modal-2" type="checkbox" />
+        <div class="modal">
+            <label class="modal__bg" for="modal-2"></label>
+            <div class="modal__inner">
+                <label class="modal__close" for="modal-2"></label>
+                <h1>cross arm and crunches</h1>
+                <img src="./imgp2/w.coss.jpg" />
+                <p>เริ่มด้วยนอนบนเสื่อโยคะ เท้าห่างกันประมาณไหล่และงอเข่าขึ้นตั้งฉาก มือแตะที่หลังหูเป็นท่าเตรียม จากนั้นเริ่มต้นโดยยกศีรษะและแผ่นหลังขึ้น
+                    ศอกเอี้ยวมาข้างหน้าคล้ายจะแตะเข่า ทำจนครบเซ็ต เซ็ตละ 10- 15 ครั้ง แล้วสลับข้าง</p>
+            </div>
+        </div>
 
 
-<div class="footer" id="last" style="background-color:#1e1c1c">
-        
+
+
+        <br>
+
+
+        <h1 class="aabs">ABS
+
+            <a href="#absplank">
+                <label class="btn" for="modal-3">
+                    <img class="abs3" src="./imgp2/abs/3.png" alt="plank">
+                </label>
+            </a>
+        </h1>
+        <br>
+        <input class="modal-state" id="modal-3" type="checkbox" />
+        <div class="modal">
+            <label class="modal__bg" for="modal-3"></label>
+            <div class="modal__inner">
+                <label class="modal__close" for="modal-3"></label>
+                <h1>plank</h1>
+                <img src="./imgp2/w.plank.jpg" />
+                <p>นอนคว่ำบนพื้นราบ ตั้งศอกขนานกับพื้นกำหรือแบมือคว่ำลงก็ได้ โดยที่ต้นแขนต้องตั้งฉากกับลำตัว ส่วนขาหลังชิดกันเหยียดตรงและยกตัวขึ้นมาให้เกร็งหน้าท้องไว้ประมาณ
+                    30 - 60 วินาที</p>
+            </div>
+        </div>
+
+
+
+        <a href="#absmount">
+            <label class="btn" for="modal-4">
+                <img class="abs4" src="./imgp2/abs/4.png" alt="mountain climbers"> </label>
+        </a>
+        <input class="modal-state" id="modal-4" type="checkbox" />
+        <div class="modal">
+            <label class="modal__bg" for="modal-4"></label>
+            <div class="modal__inner">
+                <label class="modal__close" for="modal-4"></label>
+                <h1>mountain climbers</h1>
+                <img src="./imgp2/w.mountain climbers.jpg" />
+                <p>เริ่มต้นโดยคว่ำตัวยันฝ่ามือและปลาเท้ากับพ้นเป็นท่าเตรียม จากนั้นก้าวเท้าไปข้างหน้าทีละข้าง สลับซ้าย- ขวา
+                    โดยใช้ปลายเท้ายันพื้นเหมือนปีนเขา ทำข้างละ2-3เซ็ต เซ็ตละ10-15ครั้ง</p>
+            </div>
+        </div>
+        <a href="#absruss">
+            <label class="btn" for="modal-5">
+                <img class="abs5" src="./imgp2/abs/5.png" alt="Russian twist"> </label>
+        </a>
+        <input class="modal-state" id="modal-5" type="checkbox" />
+        <div class="modal">
+            <label class="modal__bg" for="modal-5"></label>
+            <div class="modal__inner">
+                <label class="modal__close" for="modal-5"></label>
+                <h1>mountain climbers</h1>
+                <img src="./imgp2/w.Russian twist.jpg" />
+                <p>นั่งเข่า เท้าชิด แขนยื่นไปด้านหน้า ให้ประกบนิ้วเข้าหากัน ยกเท้าขึ้นเหนือพื้น ค้างไว้ให้นานที่สุด ระหว่างนั้นให้หมุนท่อนบนไปทางซ้ายและขวาสลับกัน
+                </p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <a name="arm">
+        <div class="arm">
+    </a>
+    <div class="textbox">
+        <a href="#armcircle">
+            <label class="btn" for="modal-6">
+                <img class="arm1" src="./imgp2/arm/1.png" alt="arm circles">
+            </label>
+        </a>
+        <input class="modal-state" id="modal-6" type="checkbox" />
+        <div class="modal">
+            <label class="modal__bg" for="modal-6"></label>
+            <div class="modal__inner">
+                <label class="modal__close" for="modal-6"></label>
+                <h1>arm circles</h1>
+                <img src="./imgp2/w.arm circles.jpg" />
+                <p>เริ่มต้นด้วยกางแขนทั้งสองข้างออกข้างลำตัว จากนั้นค่อยๆหมุนแขนวนจากด้านหน้าเป็นลักษณะวงกลมช้า ๆแล้วเพิ่มระดับให้เร็วขึ้น
+                    ทำเซ็ตละ 15 ครั้ง จากนั้นเปลี่ยนท่าด้วยการหมุนแขนจากด้านหลังมาด้านหน้า เริ่มจากช้าก่อนปรับระดับให้เร็วขึ้น
+                    ทำจนครบเซ็ต
+                </p>
+            </div>
+        </div>
+        <a href="#armcobas">
+            <label class="btn" for="modal-7">
+                <img class="arm2" src="./imgp2/arm/2.png" alt="cobras">
+            </label>
+            <br>
+        </a>
+        <input class="modal-state" id="modal-7" type="checkbox" />
+        <div class="modal">
+            <label class="modal__bg" for="modal-7"></label>
+            <div class="modal__inner">
+                <label class="modal__close" for="modal-7"></label>
+                <h1>cobras</h1>
+                <img src="./imgp2/w.cobras.jpg" />
+                <p>นอนคว่ำอยู่บนพื้น เท้าเหยียด มือวางไว้ข้างลำตัวในระดับไหล่ หน้าหันไปข้างได้ข้างหนึ่ง กดเท้า กล้ามเนื้อต้นขาและสะโพกลงบนพื้น
+                    หายใจเข้าพร้อมกับหันหน้าตรง เอาคางจรดพื้น มือยันพื้นและเหยียดข้อศอก ยกศีรษะ ไหล่ หน้าอก เอวให้สูงขึ้นเงยหน้าไปด้านหลัง
+                    โดยส่วนที่ยังกดอยู่บนพื้นคือบริเวณหัวเหน่า ต้นขาและเท้า โดยที่ไม่มีอาการปวดหลัง ให้ค้างท่านั้น 15-30
+                    วินาทีให้หายใจปกติ เวลาหายใจออกให้หย่อนตัวลงบนพื้นให้ทำซ้ำๆ 3 นาที</p>
+            </div>
+        </div>
+        <h1 class="aarm"> ARM
+            <a href="#armdigo">
+                <label class="btn" for="modal-8">
+                    <img class="arm3" src="./imgp2/arm/3.png" alt="diagonal plank">
+                </label>
+            </a>
+        </h1>
+        <input class="modal-state" id="modal-8" type="checkbox" />
+        <div class="modal">
+            <label class="modal__bg" for="modal-8"></label>
+            <div class="modal__inner">
+                <label class="modal__close" for="modal-8"></label>
+                <h1>diagonal plank</h1>
+                <img src="./imgp2/w.diagonal plank.jpeg" />
+                <p>นอนราบกับพื้นใช้แขนดันตัวขึ้นโดยเหยียดแขนตึง ยกแขนข้างใดข้างหนึ่งไปข้างหน้า ตั้งฉาก 90 องศา ยากขา สลับกับแขนไปข้างหลัง
+                    พยายามเหยียดขาตรง
+                </p>
+            </div>
+        </div>
+        <br>
+        <a href="#armpust">
+            <label class="btn" for="modal-9">
+                <img class="arm4" src="./imgp2/arm/4.png" alt="push up">
+        </a>
+
+        <input class="modal-state" id="modal-9" type="checkbox" />
+        <div class="modal">
+            <label class="modal__bg" for="modal-9"></label>
+            <div class="modal__inner">
+                <label class="modal__close" for="modal-9"></label>
+                <h1>push up</h1>
+                <img src="./imgp2/w.push up.jpg" />
+                <p>นั่งคุกเข่าลงกับพื้น วางมือทั้ง 2 ข้างที่ด้านหน้า แล้วก้มหน้าลง ยกเข่าขึ้นเหนือพื้น ทิ้งน้ำหนักที่มือและปลายเท้า
+                    ลดตัวลงให้มากที่สุด แต่อย่าให้ร่างกายแตะพื้น แล้วยกตัวขึ้น ทำซ้ำ 10-15 ครั้ง ทั้งหมด 3 เซต
+                </p>
+            </div>
+        </div>
+        <a href="#armtric">
+            <label class="btn" for="modal-10">
+                <img class="arm5" src="./imgp2/arm/5.png" alt="triceps dips">
+            </label>
+        </a>
+        <input class="modal-state" id="modal-10" type="checkbox" />
+        <div class="modal">
+            <label class="modal__bg" for="modal-10"></label>
+            <div class="modal__inner">
+                <label class="modal__close" for="modal-10"></label>
+                <h1>triceps dips</h1>
+                <img src="./imgp2/w.triceps dips.jpg" />
+                <p>นั่งบนเก้าอี้ หรือม้านั่ง แขนแนบลำตัว มือสองข้างจับที่ขอบเก้าอี้ ขยับตัวมานั่งที่ขอบเก้าอี้ โดยให้เข่าตั้งฉากกับพื้น
+                    ขยับก้นออกจากเก้าอี้ ทิ้งน้ำหนักลงที่มือและขา ค่อย ๆ ย่อตัวลงจนสุด โดยอย่าให้มือหลุดออกจากเก้าอี้ ยกตัวขึ้นกลับสู่ท่าเดิม
+                    เริ่มต้นใหม่ ทำซ้ำ 10-15 ครั้ง ทั้งหมด 3 เซต
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <a name="leg">
+        <div class="leg">
+    </a>
+    <div class="textbox">
+        <a href="#legpile">
+            <label class="btn" for="modal-11">
+                <img class="leg1" src="./imgp2/leg/1.png" alt="pile squats">
+            </label>
+        </a>
+        <input class="modal-state" id="modal-11" type="checkbox" />
+        <div class="modal">
+            <label class="modal__bg" for="modal-11"></label>
+            <div class="modal__inner">
+                <label class="modal__close" for="modal-11"></label>
+                <h1>pile squats</h1>
+                <img src="./imgp2/w.pile squat.jpg" />
+                <p>ท่าเริ่มต้น ยืนตรง มองไปด้านหน้า ปลายเท้าชี้กางออกด้านข้าง กางขาให้เลยช่วงไหล่เล็กน้อย และใช้มือทั้ง 2 ข้างจับที่เอว
+                    ย่อเข่าลงอย่างช้า ๆ พร้อมกับหายใจเข้า จนกระทั่งส่วนต้นขาขนานกับพื้น และหัวเข่างอเป็นมุม 90 องศา โดยที่หัวเข่าไม่ควรเกินปลายเท้า
+                    หลังตรง และเท้าไม่เขย่งจากพื้น ยกตัวขึ้นอย่างช้า ๆ พร้อมกับหายใจออก โดยใช้ส้นเท้าดันตัวขึ้น จนกระทั่งกลับไปสู่ท่าเริ่มต้น
+                    นับเป็น 1 ครั้ง ทำ 3 เซ็ต เซ็ตละ 15 – 20 ครั้ง พักระหว่างเซ็ต 30 – 60 วินาที
+
+                </p>
+            </div>
+        </div>
+
+        <a href="#legside">
+            <label class="btn" for="modal-12">
+                <img class="leg2" src="./imgp2/leg/2.png" alt="side lunges">
+                <br>
+            </label>
+        </a>
+        <input class="modal-state" id="modal-12" type="checkbox" />
+        <div class="modal">
+            <label class="modal__bg" for="modal-12"></label>
+            <div class="modal__inner">
+                <label class="modal__close" for="modal-12"></label>
+                <h1>side lunges</h1>
+                <img src="./imgp2/w.side lunges.jpg" />
+                <p>ยืนตัวตรง แล้วเหยียดขาข้างหนึ่งไปด้านข้าง แล้วย่อตัวลง โดยขาข้างที่เหยียดไปด้านข้างจะต้องตึง หลังจะต้องตรงแล้วค้างไว้
+                    ก่อนกลับท่าเดิม ทำสลับข้าง 8 – 15 ครั้ง
+                </p>
+            </div>
+        </div>
+        <h1 class="lleg"> LEG
+            <a href="#legsciss">
+                <label class="btn" for="modal-13">
+                    <img class="leg3" src="./imgp2/leg/3.png" alt="scissors">
+                </label>
+            </a>
+        </h1>
+        <input class="modal-state" id="modal-13" type="checkbox" />
+        <div class="modal">
+            <label class="modal__bg" for="modal-13"></label>
+            <div class="modal__inner">
+                <label class="modal__close" for="modal-13"></label>
+                <h1>scissors</h1>
+                <img src="./imgp2/w.scissors.jpg" />
+                <p>นอนหงายกับพื้น ยกขาสองข้างชิดติดกันเหนือพื้นระดับที่รู้สึกเกร็งหน้าท้อง
+                </p>
+            </div>
+        </div>
+        <br>
+        </a>
+        <a href="#legsumo">
+            <label class="btn" for="modal-14">
+                <img class="leg4" src="./imgp2/leg/4.png" alt="sumo squats">
+            </label>
+        </a>
+        <input class="modal-state" id="modal-14" type="checkbox" />
+        <div class="modal">
+            <label class="modal__bg" for="modal-14"></label>
+            <div class="modal__inner">
+                <label class="modal__close" for="modal-14"></label>
+                <h1>sumo squats</h1>
+                <img src="./imgp2/w..sumo squats.jpg" />
+                <p>ยืนปลายเท้าห่างกันประมาณไหล่ เปิดปลายเท้าเล็กน้อย ลำตัวตรง จากนั้นงอเข่าและลดสะโพกลง มือประกบกันที่หน้าอก
+                    ทำทั้งหมด 40 ครั้ง
+                </p>
+            </div>
+        </div>
+        <a href="#legsigle">
+            <label class="btn" for="modal-15">
+                <img class="leg5" src="./imgp2/leg/5.png" alt="single leg squat">
+            </label>
+        </a>
+        <input class="modal-state" id="modal-15" type="checkbox" />
+        <div class="modal">
+            <label class="modal__bg" for="modal-15"></label>
+            <div class="modal__inner">
+                <label class="modal__close" for="modal-15"></label>
+                <h1>single leg squat</h1>
+                <img src="./imgp2/w.single leg squat.jpg" />
+                <p>ยืนตัวตรงมือสองข้างแนบลำตัว ยื่นขาข้างซ้ายไปข้างหน้า 30 องศา (ยืนด้วยขาขวาข้างเดียว) พร้อมยื่นแขนทั้งสองไปข้างหน้า
+                    งอเข้าขวาลง พร้อมลดสะโพกลงตาม จนเท้าซ้ายเกือบจะแตะพื้น จากนั้นลุกขึ้นยืนจนเข่าขวาตรงเหมือนเดิม งอเข่าและลุกขึ้นนับเป็น
+                    1 ครั้ง ทำทั้งหมด 3 เซ็ต เซ็ตละ 8-10 ครั้ง ต่อขา 1 ข้าง
+                </p>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <a name="butt">
+        <div class="butt">
+    </a>
+    <div class="textbox">
+        <a href="#buttfire">
+            <label class="btn" for="modal-16">
+                <img class="butt1" src="./imgp2/butt/1.png" alt="Fire Hydrants with Leg Extension">
+            </label>
+        </a>
+        <input class="modal-state" id="modal-16" type="checkbox" />
+        <div class="modal">
+            <label class="modal__bg" for="modal-16"></label>
+            <div class="modal__inner">
+                <label class="modal__close" for="modal-16"></label>
+                <h1>Fire Hydrants with Leg Extension</h1>
+                <img src="./imgp2/w.Fire Hydrants with Leg Extension.jpg" />
+                <p>ท่าเริ่มต้น คุกเข่าลงแล้วคว่ำหน้าลงกับพื้น โดยเข่าทั้งสองข้างอยู่แนวเดียวกับสะโพก และมือทั้งสองข้างวางไว้แนวเดียวกับหัวไหล่
+                    (ท่าคลาน) เหยียดขาขวาไปด้านหลังคือท่าเตรียม แล้ววาดขาขวาออกไปด้านข้างพร้อมกับหายใจออก แล้วดึงขากลับพร้อมกับหายใจเข้านับเป็น
+                    1 ครั้ง ทำทั้งหมดเฉพาะขาขวา 15 – 20 ครั้ง นับเป็น 1 เซ็ต แล้ววาดขาซ้ายออกไปด้านข้างพร้อมกับหายใจออก แล้วดึงขากลับพร้อมกับหายใจเข้านับเป็น
+                    1 ครั้ง ทำทั้งหมดเฉพาะขาซ้าย 15 – 20 ครั้ง นับเป็น 1 เซ็ต ทำข้างละ 3 เซ็ต เซ็ตละ 15 – 20 ครั้ง พักระหว่างเซ็ต
+                    30 – 60 วินาที
+
+                </p>
+            </div>
+        </div>
+        <a href="#buttside">
+            <label class="btn" for="modal-17">
+                <img class="butt2" src="./imgp2/butt/2.png" alt="side lying leg">
+                <br>
+            </label>
+        </a>
+        <input class="modal-state" id="modal-17" type="checkbox" />
+        <div class="modal">
+            <label class="modal__bg" for="modal-17"></label>
+            <div class="modal__inner">
+                <label class="modal__close" for="modal-17"></label>
+                <h1>side lying leg</h1>
+                <img src="./imgp2/w.side lying leg.jpg" />
+                <p>เริ่มจากนอนตะแคง และข้อศอกต้องตรงกับไหล่ จากนั้นยกขาอีกข้างขึ้นมาวางไว้ด้านหน้าหัวเข่าของขาอีกข้าง เสร็จแล้วให้ยกขาที่วางนอนอยู่ขึ้นไปเรื่อยๆ
+
+                </p>
+            </div>
+        </div>
+
+
+
+
+
+
+        <h1 class="bbutt"> BUTT
+            <a href="#buttpile">
+                <label class="btn" for="modal-18">
+                    <img class="butt3" src="./imgp2/butt/3.png" alt="pile squat">
+                </label>
+            </a>
+        </h1>
+        <input class="modal-state" id="modal-18" type="checkbox" />
+        <div class="modal">
+            <label class="modal__bg" for="modal-18"></label>
+            <div class="modal__inner">
+                <label class="modal__close" for="modal-18"></label>
+                <h1>pile squat</h1>
+                <img src="./imgp2/w.pile squat.jpg" />
+                <p>ท่าเริ่มต้น ยืนตรง มองไปด้านหน้า ปลายเท้าชี้กางออกด้านข้าง กางขาให้เลยช่วงไหล่เล็กน้อย และใช้มือทั้ง 2 ข้างจับที่เอว
+                    ย่อเข่าลงอย่างช้า ๆ พร้อมกับหายใจเข้า จนกระทั่งส่วนต้นขาขนานกับพื้น และหัวเข่างอเป็นมุม 90 องศา โดยที่หัวเข่าไม่ควรเกินปลายเท้า
+                    หลังตรง และเท้าไม่เขย่งจากพื้น ยกตัวขึ้นอย่างช้า ๆ พร้อมกับหายใจออก โดยใช้ส้นเท้าดันตัวขึ้น จนกระทั่งกลับไปสู่ท่าเริ่มต้น
+                    นับเป็น 1 ครั้ง ทำ 3 เซ็ต เซ็ตละ 15 – 20 ครั้ง พักระหว่างเซ็ต 30 – 60 วินาที
+
+                </p>
+            </div>
+        </div>
+        <br>
+
+        <a href="#buttsquats">
+            <label class="btn" for="modal-19">
+                <img class="butt4" src="./imgp2/butt/4.png" alt="squats">
+            </label>
+        </a>
+        <input class="modal-state" id="modal-19" type="checkbox" />
+        <div class="modal">
+            <label class="modal__bg" for="modal-19"></label>
+            <div class="modal__inner">
+                <label class="modal__close" for="modal-19"></label>
+                <h1>squat</h1>
+                <img src="./imgp2/w.squats.jpg" />
+                <p>เริ่มต้นด้วยย่อหัวเข่า และขณะที่ย่อนั้นหัวเข่าจะต้องไม่เลยปลายเท้า ย่อลงไปให้ได้มุม 90 องศา พร้อมทั้งยื่นแขนมาข้างหน้าเพื่อการทรงตัว
+                    แล้วขึ้น ย่อยืดนับเป็น 1 ครั้ง ทำ 20 ครั้ง 3 เซต
+
+                </p>
+            </div>
+        </div>
+
+
+        <a href="#buttlunge">
+            <label class="btn" for="modal-20">
+                <img class="leg5" src="./imgp2/leg/5.png" alt="lunges">
+            </label>
+        </a>
+        <input class="modal-state" id="modal-20" type="checkbox" />
+        <div class="modal">
+            <label class="modal__bg" for="modal-20"></label>
+            <div class="modal__inner">
+                <label class="modal__close" for="modal-20"></label>
+                <h1>lunges</h1>
+                <img src="./imgp2/w.lunges.jpg" />
+                <p>ยืนตัวตรง กาเท้ออกจากกันเล็กน้อย ก้าวเท้าหนึ่งข้าออกไปข้างหน้า ย่อตัวลงตั้งเข่า 90 องศา ยกตัวขึ้นเมื่อเข่าอีกข้างแตะพื้น
+                    ทำติดต่อกัน 15 ครั้ง ทั้งหมด 3 เซต จากนั้นเปลี่ยนข้าง
+
+
+
+                </p>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <div class="footer" id="last" style="background-color:#1e1c1c">
+
         <div class="row">
             <div class="column" style="background-color:#1e1c1c">
                 <img src="./imgp2/logo-sit.png" class="logo" alt="Responsive image" />
@@ -153,11 +489,26 @@
     </div>
 
 
+    <button onclick="topFunction()" id="myBtnn" title="Go to top">Top</button>
+
+    <script>
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtnn").style.display = "block";
+            } else {
+                document.getElementById("myBtnn").style.display = "none";
+            }
+        }
 
 
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
 
-
-
+    </script>
 </body>
 
 </html>
