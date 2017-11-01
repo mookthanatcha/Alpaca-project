@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FOR HER</title>
+
+    <link rel="stylesheet" href="static/css/custom.css">
+
+    <!-- CDN -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <script src="bower_components/sweetalert2/dist/sweetalert2.all.min.js"></script>
+
+    <!-- Include a polyfill for ES6 Promises (optional) for IE11 and Android browser -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/core-js/2.4.1/core.js"></script>
+
+    <script src="bower_components/sweetalert2/dist/sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="bower_components/sweetalert2/dist/sweetalert2.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.11.2/sweetalert2.all.min.js"></script>
+
+  
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand fitness" href="index.html">FITNESS CHALLENGE</a>
+            <p class="navbar-right">
+                <a href="woman.html" class="navbar-link icon hidden-xs">
+                    <img src="static/img/icon.png" width="30" height="30" alt="error" />
+                </a>
+            </p>
+        </div>
+    </nav>
+
+    <div class="container-fluid fullpage">
+        <div class="row">
+            <div class="woman">
+                <img src="static/img/woman.jpg" class="img-responsive" alt="">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <a href="#abs">
+                            <img src="static/img/ic1.png" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                    <div class="col-xs-3">
+                        <a href="#butt">
+                            <img src="static/img/ic2.png" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                    <div class="col-xs-3">
+                        <a href="#arm">
+                            <img src="static/img/ic3.png" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                    <div class="col-xs-3">
+                        <a href="#leg">
+                            <img src="static/img/ic4.png" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="abs">
+            <div class="abs">
+                <div class="col-xs-8"></div>
+                <div class="col-xs-4">
+                    <div class="row">
+                        <img onclick="myFunction()" src="static/img/abs/1.png" class="img-responsive" alt="">
+                    </div>
+                    <div class="row">
+                        <img onclick="myFunction2()" src="static/img/abs/2.png" class="img-responsive" alt="">
+                    </div>
+                    <div class="row">
+                        <a href="#">
+                            <img  src="static/img/abs/3.png" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                    <div class="row">
+                        <a href="#">
+                            <img src="static/img/abs/4.png" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                    <div class="row">
+                        <a href="#">
+                            <img src="static/img/abs/5.png" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="butt">
+            <div class="butt">
+                <div class="col-xs-8"></div>
+                <div class="col-xs-4">
+                    <div class="row">1</div>
+                    <div class="row">2</div>
+                    <div class="row">3</div>
+                    <div class="row">4</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="arm">
+            <div class="arm">
+                <div class="col-xs-8"></div>
+                <div class="col-xs-4">
+                    <div class="row">1</div>
+                    <div class="row">2</div>
+                    <div class="row">3</div>
+                    <div class="row">4</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="leg">
+            <div class="leg">
+                <div class="col-xs-8"></div>
+                <div class="col-xs-4">
+                    <div class="row">1</div>
+                    <div class="row">2</div>
+                    <div class="row">3</div>
+                    <div class="row">4</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+<script>
+    function myFunction() {
+        swal({
+            title: 'bicycle crunches',
+            text: 'นอนหงายบนพื้นราบ ขาสองข้างเหยียดตรง จากนั้นใช้มือยกศีรษะเหนือจากพื้น จากนั้นทำการบริหารด้วยการสลับขางอเข้าและเหยียดตรงเหมือนกำลังปั่นจักรยานบนอากาศ ซึ่งขณะที่งอเข่าเข้าหาลำตัวให้บิดตัวให้ข้อศอกด้านตรงข้ามชนกันมากที่สุด โดยให้ทำติดต่อกัน 10 12 ครั้งต่อเซ็ต ทำสลับกันระหว่างด้านซ้ายและขวา ประมาณ 3 - 5 เซ็ต',
+            imageUrl: 'static/img/w.bicycle.jpg',
+            imageWidth: 400,
+            imageHeight: 200,
+            imageAlt: 'Custom image',
+            animation: false
+        })
+    }
+
+    function myFunction2() {
+        swal({
+            title: 'cross arm and crunches',
+            text: 'เริ่มด้วยนอนบนเสื่อโยคะ เท้าห่างกันประมาณไหล่และงอเข่าขึ้นตั้งฉาก มือแตะที่หลังหูเป็นท่าเตรียมจากนั้นเริ่มต้นโดยยกศีรษะและแผ่นหลังขึ้น ศอกเอี้ยวมาข้างหน้าคล้ายจะแตะเข่า ทำจนครบเซ็ต เซ็ตละ 10-15 ครั้ง แล้วสลับข้าง',
+            imageUrl: 'static/img/w.cross arm and crunches.jpg',
+            imageWidth: 400,
+            imageHeight: 200,
+            imageAlt: 'Custom image',
+            animation: false
+        })
+    }
+</script>
+
+</html>
