@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'QuarkLight';
+    src: url('../font/Quark-Light.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+         url('../font/bangna-new.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+  }
+  @font-face {
+    font-family: 'leaguespartan';
+    src: url('../font/leaguespartan-bold.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+         url('../font/leaguespartan-bold.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+  }
+
+  body { padding-top: 55px; }
+
+  .fitness {
+    float: left;
+    font-family: 'leaguespartan' !important;
+    font-size: 2em !important;
+    opacity: 50;
+    display: block;
+    color: #D3ED2F !important;
+    text-align: center;
+    margin-top: 5px !important; 
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .icon {
+    margin: 5px !important; 
+    padding: 5px !important;
+    display: block;
+  }
+
+
+  .fullpage {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .letstart {
+    background-image: url(../img/home.jpg);
+    background-repeat: no-repeat;
+    height: calc(100vh);
+    background-position: 50% 50%;
+  }
+
+  .forhimforher {
+    background-image: url(../img/for.jpg);
+    background-repeat: no-repeat;
+    height: calc(100vh);
+    background-position: 50% 50%;
+  }
+
+  .aboutus {
+    background-image: url(../img/about.png);
+    background-repeat: no-repeat;
+    height: calc(100vh);
+    background-position: 50% 50%;
+  }
+
+  .abs {
+    background-image: url(../img/arm.jpg);
+    background-repeat: no-repeat;
+    height: calc(100vh);
+    background-position: 50% 50%;
+    
+  }
+
+  .butt {
+    background-image: url(../img/g4.jpg);
+    background-repeat: no-repeat;
+    height: calc(100vh);
+    background-position: 50% 50%;
+  }
+
+  .arm {
+    background-image: url(../img/g1.jpg);
+    background-repeat: no-repeat;
+    height: calc(100vh);
+    background-position: 50% 50%;
+  }
+
+  .leg {
+    background-image: url(../img/g2.jpg);
+    background-repeat: no-repeat;
+    height: calc(100vh);
+    background-position: 50% 50%;
+  }
+
+  .col-centered{
+    float: none;
+    margin: 0 auto;
+  }
+  .footer {
+    background-color: gray;
+    color: white;
+    /* text-align: center; */
+  }
+  .lastname h2 {
+    font-family: Orator Std;
+    font-size: 24px;
+    padding-left: 100px;
+    color: white;
+  }
+  .lastname ul {
+    font-family: Orator Std;
+    font-size: 20px;
+    color: white;
+  }
