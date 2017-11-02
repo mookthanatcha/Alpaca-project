@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FOR HER</title>
+
+    <link rel="stylesheet" href="static/css/custom.css">
+
+    <!-- CDN -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <script src="bower_components/sweetalert2/dist/sweetalert2.all.min.js"></script>
+
+    <!-- Include a polyfill for ES6 Promises (optional) for IE11 and Android browser -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/core-js/2.4.1/core.js"></script>
+
+    <script src="bower_components/sweetalert2/dist/sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="bower_components/sweetalert2/dist/sweetalert2.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.11.2/sweetalert2.all.min.js"></script>
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand fitness" href="index.html">FITNESS CHALLENGE</a>
+            <p class="navbar-right">
+                <a href="woman.html" class="navbar-link icon hidden-xs">
+                    <img src="static/img/icon.png" width="30" height="30" alt="error" />
+                </a>
+            </p>
+        </div>
+    </nav>
+
+
+    <div class="container-fluid fullpage">
+
+        <div class="row" style="background-color:rgb(223, 219, 219)">
+            <div class="woman" >
+                <img src="static/img/woman.jpg" class="img-responsive" alt="">
+            </div>
+            <div class="row" style="margin:40px">
+                <div class="col-xs-3" >
+                    <a href="#abs">
+                        <img src="static/img/ic2.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-xs-3" >
+                    <a href="#butt">
+                        <img src="static/img/ic3.png" class="img-responsive" alt="" >
+                    </a>
+                </div>
+                <div class="col-xs-3">
+                    <a href="#arm">
+                        <img src="static/img/ic4.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-xs-3" >
+                    <a href="#leg">
+                        <img src="static/img/ic1.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row" id="abs">
+        <div class="abs">
+            <div class="col-xs-7"></div>
+            <div class="col-xs-4">
+                <div class="row" style="margin-top:30px">
+                    <img onclick="myFunction()" src="static/img/abs/1.png" class="img-responsive" alt="">
+                </div>
+                <div class="row" style="margin-top:20px">
+                    <img onclick="myFunction2()" src="static/img/abs/2.png" class="img-responsive" alt="">
+                </div>
+                <div class="row" style="margin-top:20px">
+
+                    <img onclick="myFunction3()" src="static/img/abs/3.png" class="img-responsive" alt="">
+
+                </div>
+                <div class="row" style="margin-top:20px">
+
+                    <img onclick="myFunction4()" src="static/img/abs/4.png" class="img-responsive" alt="">
+
+                </div>
+                <div class="row" style="margin-top:20px">
+
+                    <img onclick="myFunction5()" src="static/img/abs/5.png" class="img-responsive" alt="">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row" id="butt">
+        <div class="butt">
+            <div class="col-xs-7"></div>
+            <div class="col-xs-4">
+                <div class="row" style="margin-top:30px">
+                    <img onclick="myFunction6()" src="static/img/butt/1.png" class="img-responsive" alt="">
+
+                </div>
+                <div class="row" style="margin-top:20px">
+
+                    <img onclick="myFunction7()" src="static/img/butt/2.png" class="img-responsive" alt="">
+
+                </div>
+                <div class="row" style="margin-top:20px">
+
+                    <img onclick="myFunction8()" src="static/img/butt/3.png" class="img-responsive" alt="">
+
+                </div>
+                <div class="row" style="margin-top:20px">
+
+                    <img onclick="myFunction9()" src="static/img/butt/4.png" class="img-responsive" alt="">
+
+                </div>
+                <div class="row" style="margin-top:20px">
+
+                    <img onclick="myFunction10()" src="static/img/butt/5.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row" id="arm">
+        <div class="arm">
+            <div class="col-xs-7"></div>
+            <div class="col-xs-4">
+                <div class="row" style="margin-top:30px">
+                    <img onclick="myFunction11()" src="static/img/arm/1.png" class="img-responsive" alt="">
+
+                </div>
+                <div class="row" style="margin-top:20px">
+                    <img onclick="myFunction12()" src="static/img/arm/2.png" class="img-responsive" alt="">
+
+                </div>
+                <div class="row" style="margin-top:20px">
+                    <img onclick="myFunction13()" src="static/img/arm/3.png" class="img-responsive" alt="">
+
+                </div>
+                <div class="row" style="margin-top:20px">
+                    <img onclick="myFunction14()" src="static/img/arm/4.png" class="img-responsive" alt="">
+
+                </div>
+                <div class="row" style="margin-top:20px">
+                    <img onclick="myFunction15()" src="static/img/arm/5.png" class="img-responsive" alt="">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row" id="leg">
+        <div class="leg">
+            <div class="col-xs-7"></div>
+            <div class="col-xs-4">
+                <div class="row" style="margin-top:30px">
+                    <img onclick="myFunction16()" src="static/img/leg/1.png" class="img-responsive" alt="">
+
+                </div>
+                <div class="row" style="margin-top:20px">
+                    <img onclick="myFunction17()" src="static/img/leg/2.png" class="img-responsive" alt="">
+
+                </div>
+                <div class="row" style="margin-top:20px">
+                    <img onclick="myFunction18()" src="static/img/leg/3.png" class="img-responsive" alt="">
+
+                </div>
+                <div class="row" style="margin-top:20px">
+                    <img onclick="myFunction19()" src="static/img/leg/4.png" class="img-responsive" alt="">
+
+                </div>
+                <div class="row" style="margin-top:20px">
+                    <img onclick="myFunction20()" src="static/img/leg/5.png" class="img-responsive" alt="">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="row footer fullpage">
+        <div class="col-xs-4">
+                <img src="static/img/logo-sit.png" class="img-responsive" alt="error" >
+        </div>
+        <div class="col-xs-4"></div>
+        <div class="col-xs-4 lastname hidden-xs">
+                <h2>Create by</h2>
+                <ul>
+                    <li>Thanatcha Sukapunpan</li>
+                    <li>Bandit Aengchaun</li>
+                    <li>Janya Nukunpakdee</li>
+                    <li>Thanwarat Duangseeha</li>
+                </ul>
+               
+        </div>
+    </div>
+
+
+
+</body>
+
+<script>
+    function myFunction() {
+        swal({
+            title: 'bicycle crunches',
+            text: 'นอนหงายบนพื้นราบ ขาสองข้างเหยียดตรง จากนั้นใช้มือยกศีรษะเหนือจากพื้น จากนั้นทำการบริหารด้วยการสลับขางอเข้าและเหยียดตรงเหมือนกำลังปั่นจักรยานบนอากาศ ซึ่งขณะที่งอเข่าเข้าหาลำตัวให้บิดตัวให้ข้อศอกด้านตรงข้ามชนกันมากที่สุด โดยให้ทำติดต่อกัน 10 12 ครั้งต่อเซ็ต ทำสลับกันระหว่างด้านซ้ายและขวา ประมาณ 3 - 5 เซ็ต',
+            imageUrl: 'static/img/w.bicycle.jpg',
+            imageWidth: 450,
+            imageHeight: 320,
+            imageAlt: 'Custom image',
+            animation: false
+        })
+    }
+
+    function myFunction2() {
+        swal({
+            title: 'cross arm and crunches',
+            text: 'เริ่มด้วยนอนบนเสื่อโยคะ เท้าห่างกันประมาณไหล่และงอเข่าขึ้นตั้งฉาก มือแตะที่หลังหูเป็นท่าเตรียมจากนั้นเริ่มต้นโดยยกศีรษะและแผ่นหลังขึ้น ศอกเอี้ยวมาข้างหน้าคล้ายจะแตะเข่า ทำจนครบเซ็ต เซ็ตละ 10-15 ครั้ง แล้วสลับข้าง',
+            imageUrl: 'static/img/w.cross arm and crunches.jpg',
+            imageWidth: 400,
+            imageHeight: 450,
+            imageAlt: 'Custom image',
+            animation: false
+        })
+    }
+    function myFunction3() {
+        swal({
+            title: 'plank',
+            text: 'นอนคว่ำบนพื้นราบ ตั้งศอกขนานกับพื้นกำหรือแบมือคว่ำลงก็ได้ โดยที่ต้นแขนต้องตั้งฉากกับลำตัว ส่วนขาหลังชิดกันเหยียดตรงและยกตัวขึ้นมาให้เกร็งหน้าท้องไว้ประมาณ30 - 60 วินาที',
+            imageUrl: 'static/img/w.plank.jpg',
+            imageWidth: 400,
+            imageHeight: 400,
+            imageAlt: 'Custom image',
+            animation: false
+        })
+    }
+    function myFunction4() {
+        swal({
+            title: 'mountain climbers',
+            text: 'เริ่มต้นโดยคว่ำตัวยันฝ่ามือและปลาเท้ากับพ้นเป็นท่าเตรียม จากนั้นก้าวเท้าไปข้างหน้าทีละข้าง สลับซ้าย- ขวาโดยใช้ปลายเท้ายันพื้นเหมือนปีนเขา ทำข้างละ2-3เซ็ต เซ็ตละ10-15ครั้ง',
+            imageUrl: 'static/img/w.mountain climbers.jpg',
+            imageWidth: 350,
+            imageHeight: 300,
+            imageAlt: 'Custom image',
+            animation: false
+        })
+    }
+    function myFunction5() {
+        swal({
+            title: 'Russian twist',
+            text: 'นั่งเข่า เท้าชิด แขนยื่นไปด้านหน้า ให้ประกบนิ้วเข้าหากัน ยกเท้าขึ้นเหนือพื้น ค้างไว้ให้นานที่สุด ระหว่างนั้นให้หมุนท่อนบนไปทางซ้ายและขวาสลับกัน',
+            imageUrl: 'static/img/w.Russian twist.jpg',
+            imageWidth: 400,
+            imageHeight: 300,
+            imageAlt: 'Custom image',
+            animation: false
+        })
+    }
+    function myFunction6() {
+        swal({
+            title: 'Fire Hydrants Left and Right',
+            text: 'ท่าเริ่มต้น คุกเข่าลงแล้วคว่ำหน้าลงกับพื้น โดยเข่าทั้งสองข้างอยู่แนวเดียวกับสะโพก และมือทั้งสองข้างวางไว้แนวเดียวกับหัวไหล่(ท่าคลาน) เหยียดขาขวาไปด้านหลังคือท่าเตรียม แล้ววาดขาขวาออกไปด้านข้างพร้อมกับหายใจออก แล้วดึงขากลับพร้อมกับหายใจเข้านับเป็น 1 ครั้ง ทำทั้งหมดเฉพาะขาขวา 15 – 20 ครั้ง นับเป็น 1 เซ็ต แล้ววาดขาซ้ายออกไปด้านข้างพร้อมกับหายใจออก แล้วดึงขากลับพร้อมกับหายใจเข้านับเป็น 1 ครั้ง ทำทั้งหมดเฉพาะขาซ้าย 15 – 20 ครั้ง นับเป็น 1 เซ็ต ทำข้างละ 3 เซ็ต เซ็ตละ 15 – 20 ครั้ง พักระหว่างเซ็ต 30 – 60 วินาที',
+            imageUrl: 'static/img/w.Fire Hydrants with Leg Extension.jpg',
+            imageWidth: 400,
+            imageHeight: 400,
+            imageAlt: 'Custom image',
+            animation: false
+        })
+    }
+
+    function myFunction7() {
+        swal({
+            title: 'side lying leg',
+            text: 'เริ่มจากนอนตะแคง และข้อศอกต้องตรงกับไหล่ จากนั้นยกขาอีกข้างขึ้นมาวางไว้ด้านหน้าหัวเข่าของขาอีกข้าง เสร็จแล้วให้ยกขาที่วางนอนอยู่ขึ้นไปเรื่อยๆ',
+            imageUrl: 'static/img/w.side lying leg.jpg',
+            imageWidth: 400,
+            imageHeight: 400,
+            imageAlt: 'Custom image',
+            animation: false
+        })
+
+    }
+
+    function myFunction8() {
+        swal({
+            title: 'pile squat',
+            text: 'ท่าเริ่มต้น ยืนตรง มองไปด้านหน้า ปลายเท้าชี้กางออกด้านข้าง กางขาให้เลยช่วงไหล่เล็กน้อย และใช้มือทั้ง 2 ข้างจับที่เอว                    ย่อเข่าลงอย่างช้า ๆ พร้อมกับหายใจเข้า จนกระทั่งส่วนต้นขาขนานกับพื้น และหัวเข่างอเป็นมุม 90 องศา โดยที่หัวเข่าไม่ควรเกินปลายเท้า หลังตรง และเท้าไม่เขย่งจากพื้น ยกตัวขึ้นอย่างช้า ๆ พร้อมกับหายใจออก โดยใช้ส้นเท้าดันตัวขึ้น จนกระทั่งกลับไปสู่ท่าเริ่มต้น นับเป็น 1 ครั้ง ทำ 3 เซ็ต เซ็ตละ 15 – 20 ครั้ง พักระหว่างเซ็ต 30 – 60 วินาที',
+            imageUrl: 'static/img/w.side lying leg.jpg',
+            imageWidth: 400,
+            imageHeight: 300,
+            imageAlt: 'Custom image',
+            animation: false
+        })
+    }
+
+    function myFunction9() {
+        swal({
+            title: 'squats',
+            text: 'เริ่มต้นด้วยย่อหัวเข่า และขณะที่ย่อนั้นหัวเข่าจะต้องไม่เลยปลายเท้า ย่อลงไปให้ได้มุม 90 องศา พร้อมทั้งยื่นแขนมาข้างหน้าเพื่อการทรงตัวแล้วขึ้น ย่อยืดนับเป็น 1 ครั้ง ทำ 20 ครั้ง 3 เซต',
+            imageUrl: 'static/img/w.squats.jpg',
+            imageWidth: 400,
+            imageHeight: 300,
+            imageAlt: 'Custom image',
+            animation: false
+        })
+    }
+    function myFunction10() {
+        swal({
+            title: 'lunges',
+            text: 'ยืนตัวตรง กาเท้ออกจากกันเล็กน้อย ก้าวเท้าหนึ่งข้าออกไปข้างหน้า ย่อตัวลงตั้งเข่า 90 องศา ยกตัวขึ้นเมื่อเข่าอีกข้างแตะพื้นทำติดต่อกัน 15 ครั้ง ทั้งหมด 3 เซต จากนั้นเปลี่ยนข้าง',
+            imageUrl: 'static/img/w.lunges.jpg',
+            imageWidth: 600,
+            imageHeight: 350,
+            imageAlt: 'Custom image',
+            animation: false
+        })
+    }
+    function myFunction11() {
+        swal({
+            title: 'arm circles',
+            text: 'เริ่มต้นด้วยกางแขนทั้งสองข้างออกข้างลำตัว จากนั้นค่อยๆหมุนแขนวนจากด้านหน้าเป็นลักษณะวงกลมช้า ๆแล้วเพิ่มระดับให้เร็วขึ้นทำเซ็ตละ 15 ครั้ง จากนั้นเปลี่ยนท่าด้วยการหมุนแขนจากด้านหลังมาด้านหน้า เริ่มจากช้าก่อนปรับระดับให้เร็วขึ้น ทำจนครบเซ็ต',
+            imageUrl: 'static/img/w.arm circles.jpg',
+            imageWidth: 400,
+            imageHeight: 400,
+            imageAlt: 'Custom image',
+            animation: false
+        })
+    }
+    function myFunction12() {
+        swal({
+            title: 'cobras',
+            text: 'นอนคว่ำอยู่บนพื้น เท้าเหยียด มือวางไว้ข้างลำตัวในระดับไหล่ หน้าหันไปข้างได้ข้างหนึ่ง กดเท้า กล้ามเนื้อต้นขาและสะโพกลงบนพื้น หายใจเข้าพร้อมกับหันหน้าตรง เอาคางจรดพื้น มือยันพื้นและเหยียดข้อศอก ยกศีรษะ ไหล่ หน้าอก เอวให้สูงขึ้นเงยหน้าไปด้านหลัง โดยส่วนที่ยังกดอยู่บนพื้นคือบริเวณหัวเหน่า ต้นขาและเท้า โดยที่ไม่มีอาการปวดหลัง ให้ค้างท่านั้น 15-30 วินาทีให้หายใจปกติ เวลาหายใจออกให้หย่อนตัวลงบนพื้นให้ทำซ้ำๆ 3 นาที',
+            imageUrl: 'static/img/w.cobras.jpg',
+            imageWidth: 400,
+            imageHeight: 400,
+            imageAlt: 'Custom image',
+            animation: false
+        })
+    }
+    function myFunction12() {
+        swal({
+            title: 'cobras',
+            text: 'นอนคว่ำอยู่บนพื้น เท้าเหยียด มือวางไว้ข้างลำตัวในระดับไหล่ หน้าหันไปข้างได้ข้างหนึ่ง กดเท้า กล้ามเนื้อต้นขาและสะโพกลงบนพื้น หายใจเข้าพร้อมกับหันหน้าตรง เอาคางจรดพื้น มือยันพื้นและเหยียดข้อศอก ยกศีรษะ ไหล่ หน้าอก เอวให้สูงขึ้นเงยหน้าไปด้านหลัง โดยส่วนที่ยังกดอยู่บนพื้นคือบริเวณหัวเหน่า ต้นขาและเท้า โดยที่ไม่มีอาการปวดหลัง ให้ค้างท่านั้น 15-30 วินาทีให้หายใจปกติ เวลาหายใจออกให้หย่อนตัวลงบนพื้นให้ทำซ้ำๆ 3 นาที',
+            imageUrl: 'static/img/w.cobras.jpg',
+            imageWidth: 500,
+            imageHeight: 300,
+            imageAlt: 'Custom image',
+            animation: false
+        })
+    }
+    function myFunction13() {
+        swal({
+            title: 'diagonal plank',
+            text: 'นอนราบกับพื้นใช้แขนดันตัวขึ้นโดยเหยียดแขนตึง ยกแขนข้างใดข้างหนึ่งไปข้างหน้า ตั้งฉาก 90 องศา ยากขา สลับกับแขนไปข้างหลัง พยายามเหยียดขาตรง',
+            imageUrl: 'static/img/w.diagonal plank.jpeg',
+            imageWidth: 500,
+            imageHeight: 200,
+            imageAlt: 'Custom image',
+            animation: false
+        })
+    }
+    function myFunction14() {
+        swal({
+            title: 'push up',
+            text: 'นั่งคุกเข่าลงกับพื้น วางมือทั้ง 2 ข้างที่ด้านหน้า แล้วก้มหน้าลง ยกเข่าขึ้นเหนือพื้น ทิ้งน้ำหนักที่มือและปลายเท้า ลดตัวลงให้มากที่สุด แต่อย่าให้ร่างกายแตะพื้น แล้วยกตัวขึ้น ทำซ้ำ 10-15 ครั้ง ทั้งหมด 3 เซต',
+            imageUrl: 'static/img/w.push up.jpg',
+            imageWidth: 700,
+            imageHeight: 400,
+            imageAlt: 'Custom image',
+            animation: false
+        })
+    }
+    function myFunction15() {
+        swal({
+            title: 'triceps dips',
+            text: 'นั่งบนเก้าอี้ หรือม้านั่ง แขนแนบลำตัว มือสองข้างจับที่ขอบเก้าอี้ ขยับตัวมานั่งที่ขอบเก้าอี้ โดยให้เข่าตั้งฉากกับพื้น ขยับก้นออกจากเก้าอี้ ทิ้งน้ำหนักลงที่มือและขา ค่อย ๆ ย่อตัวลงจนสุด โดยอย่าให้มือหลุดออกจากเก้าอี้ ยกตัวขึ้นกลับสู่ท่าเดิม เริ่มต้นใหม่ ทำซ้ำ 10-15 ครั้ง ทั้งหมด 3 เซต',
+            imageUrl: 'static/img/w.triceps dips.jpg',
+            imageWidth: 700,
+            imageHeight: 300,
+            imageAlt: 'Custom image',
+            animation: false
+        })
+    }
+
+    function myFunction16() {
+        swal({
+            title: 'pile squats',
+            text: 'ท่าเริ่มต้น ยืนตรง มองไปด้านหน้า ปลายเท้าชี้กางออกด้านข้าง กางขาให้เลยช่วงไหล่เล็กน้อย และใช้มือทั้ง 2 ข้างจับที่เอวย่อเข่าลงอย่างช้า ๆ พร้อมกับหายใจเข้า จนกระทั่งส่วนต้นขาขนานกับพื้น และหัวเข่างอเป็นมุม 90 องศา โดยที่หัวเข่าไม่ควรเกินปลายเท้าหลังตรง และเท้าไม่เขย่งจากพื้น ยกตัวขึ้นอย่างช้า ๆ พร้อมกับหายใจออก โดยใช้ส้นเท้าดันตัวขึ้น จนกระทั่งกลับไปสู่ท่าเริ่มต้น นับเป็น 1 ครั้ง ทำ 3 เซ็ต เซ็ตละ 15 – 20 ครั้ง พักระหว่างเซ็ต 30 – 60 วินาที',
+            imageUrl: 'static/img/w.pile squat.jpg',
+            imageWidth: 700,
+            imageHeight: 300,
+            imageAlt: 'Custom image',
+            animation: false
+        })
+    }
+    function myFunction17() {
+        swal({
+            title: 'side lunges',
+            text: 'ยืนตัวตรง แล้วเหยียดขาข้างหนึ่งไปด้านข้าง แล้วย่อตัวลง โดยขาข้างที่เหยียดไปด้านข้างจะต้องตึง หลังจะต้องตรงแล้วค้างไว้ก่อนกลับท่าเดิม ทำสลับข้าง 8 – 15 ครั้ง',
+            imageUrl: 'static/img/w.side lunges.jpg',
+            imageWidth: 700,
+            imageHeight: 300,
+            imageAlt: 'Custom image',
+            animation: false
+        })
+    }
+
+    function myFunction18() {
+        swal({
+            title: 'scissors',
+            text: 'นอนหงายกับพื้น ยกขาสองข้างชิดติดกันเหนือพื้นระดับที่รู้สึกเกร็งหน้าท้อง',
+            imageUrl: 'static/img/w.scissors.jpg',
+            imageWidth: 700,
+            imageHeight: 300,
+            imageAlt: 'Custom image',
+            animation: false
+        })
+    }
+    function myFunction19() {
+        swal({
+            title: 'sumo squats',
+            text: 'ยืนปลายเท้าห่างกันประมาณไหล่ เปิดปลายเท้าเล็กน้อย ลำตัวตรง จากนั้นงอเข่าและลดสะโพกลง มือประกบกันที่หน้าอกทำทั้งหมด 40 ครั้ง',
+            imageUrl: 'static/img/w..sumo squats.jpg',
+            imageWidth: 700,
+            imageHeight: 400,
+            imageAlt: 'Custom image',
+            animation: false
+        })
+    }
+
+
+    function myFunction20() {
+        swal({
+            title: 'single leg squat',
+            text: 'ยืนตัวตรงมือสองข้างแนบลำตัว ยื่นขาข้างซ้ายไปข้างหน้า 30 องศา (ยืนด้วยขาขวาข้างเดียว) พร้อมยื่นแขนทั้งสองไปข้างหน้างอเข้าขวาลง พร้อมลดสะโพกลงตาม จนเท้าซ้ายเกือบจะแตะพื้น จากนั้นลุกขึ้นยืนจนเข่าขวาตรงเหมือนเดิม งอเข่าและลุกขึ้นนับเป็น 1 ครั้ง ทำทั้งหมด 3 เซ็ต เซ็ตละ 8-10 ครั้ง ต่อขา 1 ข้าง',
+            imageUrl: 'static/img/w.single leg squat.jpg',
+            imageWidth: 700,
+            imageHeight: 400,
+            imageAlt: 'Custom image',
+            animation: false
+        })
+    }
+
+
+
+
+
+</script>
+
+</html>
