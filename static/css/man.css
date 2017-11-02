@@ -1,0 +1,50 @@
+.manFoot {
+    background-image: url(../img/background/man1.jpg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    height: calc(100vh);
+    background-position: 50% 50%;
+    opacity: 1;
+    filter: alpha(opacity=100);
+  }
+
+
+
+ 
+
+
+.absmen {
+    background-image: url(../img/background/man2.jpg);
+    background-repeat: no-repeat;
+    height: calc(100vh);
+    background-position: 50% 50%;
+    opacity: 0.8;
+    filter: alpha(opacity=100);
+  }
+
+.legmen{
+    background-image: url(../img/background/man3.jpg);
+    background-repeat: no-repeat;
+    height: calc(100vh);
+    background-position: 50% 50%;
+    opacity: 0.8;
+    filter: alpha(opacity=100);
+}
+
+.armmen{
+    background-image: url(../img/background/man5.jpg);
+    background-repeat: no-repeat;
+    height: calc(100vh);
+    background-position: 50% 50%;
+    opacity: 0.8;
+    filter: alpha(opacity=100); 
+}
+.chestmen{
+    background-image: url(../img/background/man4.jpg);
+    background-repeat: no-repeat;
+    height: calc(100vh);
+    background-position: 50% 50%;
+    opacity: 0.8;
+    filter: alpha(opacity=100); 
+}
+  
